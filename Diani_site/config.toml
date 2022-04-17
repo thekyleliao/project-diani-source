@@ -1,0 +1,28 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Project Diani"
+themesDir = "themes"
+theme = "hugo-winston-theme-master"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+paginate = 3
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@zerostaticio"
+
+  showAuthorOnHomepage = false
+  showAuthorOnPosts = false
+  showPostsOnHomepage = false
+
+  addFrame = true
+  addDot = true
+
+  highlightColor = '#7a0469'
